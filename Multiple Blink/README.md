@@ -18,7 +18,7 @@ In multiple Blinking the Red and Green LEDs on the lunchpads an infinite while l
 ||7|6|5|4|3|2|1|0|
 |---------|--|--|--|--|--|--|--|--|
 |P1 **In**|||||||||
-|P1 **OUT**||||||||1/0|
+|P1 **OUT**||1/0|||||||
 |P1 **DIR**||1|||||||
 
 **Table** *Special Function Registers for the RED LED P1.6* 
@@ -38,7 +38,7 @@ The above table shows the two different states of the green LED and RED LED in t
 ||7|6|5|4|3|2|1|0|
 |---------|--|--|--|--|--|--|--|--|
 |P4 **In**|||||||||
-|P4 **OUT**||||||||1/0|
+|P4 **OUT**|1/0||||||||
 |P4 **DIR**|1||||||||
 
 **Table** *Special Function Registers for the RED LED P4.7* 
