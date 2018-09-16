@@ -49,5 +49,5 @@ The above table shows the two different states of the green LED and RED LED in t
 * TI wikipedia 
 * TI Resource Explorer
 
-#Code Editor
+# Code Editor
 * The One and Only **Code Composer Studio** By TI Instrunments 
