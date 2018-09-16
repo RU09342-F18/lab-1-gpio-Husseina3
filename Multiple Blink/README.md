@@ -1,22 +1,47 @@
-# Multiple Blink
-Now that we have blinked at least 1 LED, what about blinking multiple LEDS at the same time? The minimum that you need to develop is blinking at least two LEDs at two different rates. Although I am not going to give you a speed, you should probably pick a rate which is visible to a standard human. I really hope that you take this further and perform some of the extra work for this part of the lab exercise.
+# Multiple Blink MSP430G2553 and MSP430f5529
 
+In this project the Green and The Red LEDs on MSP430G2553 and MSP430f5529 dev boards will be toggled with different delays. While  implementing this project the Watch Dog Timer (WDT) has also been devactivated. The watch dog timer is an electronic timer that is capable of reseting the system when there is a computer malfunction. Since this project is to only blink an LED we're better off deactivating it. 
 
-# YOU NEED TO CREATE THE FOLLOWING FOLDERS
-* MSP430G2553
-* MSP(FILL IN WITH WHAT YOU ARE USING)
+# Implementation
+## MSP430G2553
+In multiple Blinking the Red and Green LEDs on the lunchpads an infinite while loop was used where. The itteration through the code in the loop makes the green and red LEDs to blink in different speeds.  
+### Special Function Registers
 
-## README
-Remember to replace this README with your README once you are ready to submit. I would recommend either making a copy of this file or taking a screen shot. There might be a copy of all of these README's in a folder on the top level depending on the exercise.
+||7|6|5|4|3|2|1|0|
+|---------|--|--|--|--|--|--|--|--|
+|P1 **In**|||||||||
+|P1 **OUT**||||||||1/0|
+|P1 **DIR**||||||||1|
 
-## Extra Work
-When you take a look at the development boards, you are limited to what is built into the platform.
+**Table** green LED's SFR P1.0.
 
-### Even More LEDs
-Since up to this point you should have hopefully noticed that you are simply just controlling each pin on your processor. So... what is keeping you from putting an LED on each pin? Can you actually control the speed of each of these LEDs?
+||7|6|5|4|3|2|1|0|
+|---------|--|--|--|--|--|--|--|--|
+|P1 **In**|||||||||
+|P1 **OUT**||||||||1/0|
+|P1 **DIR**||1|||||||
 
-### Patterned Lights
-If you can control a ton of LEDs, what is keeping you from having a little fun? Why not try and make something like a moving face or other moving object in lights. *CAUTION* I would only do this if you have finished the rest of the lab.
+**Table** *Special Function Registers for the RED LED P1.6* 
 
-### UART Pattern Control
-If you have been using UART, could you set which LEDs are on or off based off some UART command? Would you want to send an Array over UART such as [1 0 1 0] or would you want to send a byte that corresponds to the status? Can you not only say which LEDs are on, but also tell them to blink at a particular rate if they were on (so LED1 Blink every 100ms)?
+The above table shows as the two different states of the green LED and RED LED
+
+## MSP430F5529
+In MSP430F5529, the green led is connected to P4.7.
+### Special Function Registers
+
+||7|6|5|4|3|2|1|0|
+|---------|--|--|--|--|--|--|--|--|
+|P4 **In**|||||||||
+|P4 **OUT**||||||||0/1|
+|P4 **DIR**|1||||||||
+
+**figure** *Special Function Registers* 
+
+In the approach to blinking the green LED on MSP430F5529, the Direction register was set to 1. Which sets the pin to be an output pin. The **P4OUT** register is **XOR**ed inorder to get the toggle effect. The togle interval was set to delay 0.2seconds and the blinking was implemented using infinite while loop.
+
+# Resources Used
+* TI wikipedia 
+* TI Resource Explorer
+
+#Code Editor
+* The One and Only **Code Composer Studio** By TI Instrunments 
