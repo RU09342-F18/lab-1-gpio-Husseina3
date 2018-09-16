@@ -23,21 +23,27 @@ In multiple Blinking the Red and Green LEDs on the lunchpads an infinite while l
 
 **Table** *Special Function Registers for the RED LED P1.6* 
 
-The above table shows as the two different states of the green LED and RED LED
+The above table shows the two different states of the green LED and RED LED in the infinite while loop.
 
 ## MSP430F5529
-In MSP430F5529, the green led is connected to P4.7.
-### Special Function Registers
+
+||7|6|5|4|3|2|1|0|
+|---------|--|--|--|--|--|--|--|--|
+|P1 **In**|||||||||
+|P1 **OUT**||||||||1/0|
+|P1 **DIR**||||||||1|
+
+**Table** green LED's SFR P1.0.
 
 ||7|6|5|4|3|2|1|0|
 |---------|--|--|--|--|--|--|--|--|
 |P4 **In**|||||||||
-|P4 **OUT**||||||||0/1|
+|P4 **OUT**||||||||1/0|
 |P4 **DIR**|1||||||||
 
-**figure** *Special Function Registers* 
+**Table** *Special Function Registers for the RED LED P4.7* 
 
-In the approach to blinking the green LED on MSP430F5529, the Direction register was set to 1. Which sets the pin to be an output pin. The **P4OUT** register is **XOR**ed inorder to get the toggle effect. The togle interval was set to delay 0.2seconds and the blinking was implemented using infinite while loop.
+The above table shows the two different states of the green LED and RED LED in the infinite while loop.
 
 # Resources Used
 * TI wikipedia 
