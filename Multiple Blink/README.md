@@ -1,6 +1,6 @@
 # Multiple Blink MSP430G2553 and MSP430f5529
 
-In this project the Green and The Red LEDs on MSP430G2553 and MSP430f5529 dev boards will be toggled with different delays. While  implementing this project the Watch Dog Timer (WDT) has also been devactivated. The watch dog timer is an electronic timer that is capable of reseting the system when there is a computer malfunction. Since this project is to only blink an LED we're better off deactivating it. 
+In this project the Green and the Red LEDs on MSP430G2553 and MSP430f5529 dev boards will be toggled with different delays. While  implementing this project the Watch Dog Timer (WDT) has also been devactivated. The watch dog timer is an electronic timer that is capable of reseting the system when there is a computer malfunction. Since this project is to only blink an LED we're better off deactivating it. 
 
 # Implementation
 ## MSP430G2553
