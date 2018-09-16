@@ -30,9 +30,9 @@ In MSP430F5529, the green led is connected to P4.7.
 
 In the approach to blinking the green LED on MSP430F5529, the Direction register was set to 1. Which sets the pin to be an output pin. The **P4OUT** register is **XOR**ed inorder to get the toggle effect. The togle interval was set to delay 0.2seconds and the blinking was implemented using infinite while loop.
 
-# Resources Used
+## Resources Used
 * TI wikipedia 
 * TI Resource Explorer
 
-#Code Editor
+## Code Editor
 * The One and Only **Code Composer Studio** By TI Instrunments 
