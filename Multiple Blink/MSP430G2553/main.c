@@ -2,7 +2,7 @@
 
 
 /**
- * File: main.c for MSP430G2553
+ * File: main.c for Multiple LED Blink on MSP430G2553
  * Created On: 9/14/2018
  * Last Edited: 9/15/2018
  * Author: Anwar Hussein
