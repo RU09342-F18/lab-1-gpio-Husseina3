@@ -1,5 +1,10 @@
 #include <msp430.h>
-
+/* 
+*File: main.c For Simple blink on MSP430G2553
+*Created On: 9/14/2018
+*Last Edited: 9/15/2018
+*Autor: Anwar Hussein
+*/
 int main(void)
 {
   WDTCTL = WDTPW + WDTHOLD;                 // This line of code deactivates the Watch Dog Timer. The WDT is an electronic timer that
