@@ -2,7 +2,7 @@
 
 
 /**
- * File: main.c for MSP430F5529
+ * File: main.c for multiple LED Blink on MSP430F5529
  * Created On: 9/14/2018
  * Last Edited: 9/15/2018
  * Author: Anwar Hussein
