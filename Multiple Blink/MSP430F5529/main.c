@@ -1,12 +1,12 @@
 #include <msp430.h> 
 
-
-/**
+/*
  * File: main.c for multiple LED Blink on MSP430F5529
  * Created On: 9/14/2018
  * Last Edited: 9/15/2018
  * Author: Anwar Hussein
  */
+
 int main(void)
 {
     WDTCTL = WDTPW + WDTHOLD;                 // This line of code deactivates the Watch Dog Timer. The WDT is an electronic timer that
