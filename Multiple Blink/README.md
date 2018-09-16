@@ -23,7 +23,7 @@ In multiple Blinking the Red and Green LEDs on the lunchpads an infinite while l
 
 **Table** *Special Function Registers for the RED LED P1.6* 
 
-The above table shows the two different states of the green LED and RED LED in the infinite while loop.
+The above table shows the two different states of the green LED and RED LED in the infinite while loop. The Speed of the Red Light is 0.2 seconds and the speed of the green is 0.3 seconds.
 
 ## MSP430F5529
 
@@ -43,7 +43,7 @@ The above table shows the two different states of the green LED and RED LED in t
 
 **Table** *Special Function Registers for the RED LED P4.7* 
 
-The above table shows the two different states of the green LED and RED LED in the infinite while loop.
+The above table shows the two different states of the green LED and RED LED in the infinite while loop. The Speed of the Red Light is 0.2 seconds and the speed of the green is 0.3 seconds.
 
 # Resources Used
 * TI wikipedia 
