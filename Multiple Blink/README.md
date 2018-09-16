@@ -4,7 +4,7 @@ In this project the Green and the Red LEDs on MSP430G2553 and MSP430f5529 dev bo
 
 # Implementation
 ## MSP430G2553
-In multiple Blinking the Red and Green LEDs on the lunchpads an infinite while loop was used where. The itteration through the code in the loop makes the green and red LEDs to blink in different speeds.  
+In multiple Blinking the Red and Green LEDs on the lunchpads an infinite while loop was used where the itteration through the code in the loop makes the green and red LEDs to blink in different speeds.  
 ### Special Function Registers
 
 ||7|6|5|4|3|2|1|0|
