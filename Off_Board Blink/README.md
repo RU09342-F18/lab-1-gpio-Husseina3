@@ -19,5 +19,5 @@ After the Microprocessor was fully programmed and debugged, It was taken off of 
 
  ![Alt Text](Off_Board_Blink.JPG)
 # Blink Video Link
+[GitHub](https://youtu.be/MT7xGe_gmbI)
 
- ![Alt Text](https://youtu.be/MT7xGe_gmbI)
