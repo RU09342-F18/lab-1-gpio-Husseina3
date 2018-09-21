@@ -8,7 +8,7 @@ The special Function Registors are shown in the table below.
 ||7|6|5|4|3|2|1|0|
 |---------|--|--|--|--|--|--|--|--|
 |P1 **In**|||||1||||
-|P1 **OUT**|||||1|||1|
+|P1 **OUT**|||||1|||1/0|
 |P1 **DIR**|||||0|||1|
 |P1 **REN**|||||1|||0|
 
