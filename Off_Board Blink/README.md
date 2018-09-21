@@ -15,5 +15,5 @@ After the Microprocessor was fully programmed and debugged, It was taken off of 
 
   
     
- ![Alt Text](Off_Board_Blink.JPG)
+ ![Alt Text](Reset Circuitry.png)
 
