@@ -17,4 +17,4 @@ After the Microprocessor was fully programmed and debugged, It was taken off of 
 
 #LED Blink OfF Board
 
- ![Alt Text](OFF.png)
+ ![Alt Text](Off_Board_Blink.JPG)
