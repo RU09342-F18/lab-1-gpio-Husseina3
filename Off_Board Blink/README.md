@@ -16,5 +16,5 @@ After the Microprocessor was fully programmed and debugged, It was taken off of 
 ![Alt text]( lab-1-gpio-Husseina3/Off_Board Blink/Off_Board_Blink.JPG)
      
     
-![Optional Text](../master/Off_Board Blink/Off_Board_Blink.JPG)
+![Optional Text](..lab-1-gpio-Husseina3/Off_Board Blink/Off_Board_Blink.JPG)
 
