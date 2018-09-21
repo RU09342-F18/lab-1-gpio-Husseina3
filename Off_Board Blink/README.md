@@ -15,6 +15,9 @@ After the Microprocessor was fully programmed and debugged, It was taken off of 
 
  ![Alt Text](Reset.png)
 
-#LED Blink OfF Board
+# LED Blink Off Board
 
  ![Alt Text](Off_Board_Blink.JPG)
+# Blink Video Link
+
+ ![Alt Text](https://youtu.be/MT7xGe_gmbI)
