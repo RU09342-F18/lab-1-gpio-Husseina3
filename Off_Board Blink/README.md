@@ -7,3 +7,12 @@ The following table shows the port and the pins that were used to connect to the
 |P1 **In**|||||||||
 |P1 **OUT**||1/0||1/0||1/0|1/0|1/0|
 |P1 **DIR**||1||1||1|1|1|
+
+**Table: Special Function Register for port1**
+After the Microprocessor was fully programmed and debugged, It was taken off of the dev board and was placed on a bread board. The dev bord was used as a power supply to the microporcessor that was placed on the bread board. 
+
+## Reset Circuit
+
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
+
+
