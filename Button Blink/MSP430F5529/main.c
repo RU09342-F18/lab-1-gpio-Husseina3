@@ -1,5 +1,5 @@
 
-/*File: main for button blink LED on MSP430G2553
+/*File: main for button blink LED on MSP430F5529
  * Created on: 9/14/2018
  * Last Edited: 9/16/2018
  * Author: Anwar Hussein
@@ -12,7 +12,7 @@
 
 
   P1DIR |= BIT0;     // This line of code sets P1.0 as an output pin.
-  P1REN |= BIT1;     // The Resistor Enable bit will be determined by the Button P1.3.
+  P1REN |= BIT1;     // The Resistor Enable bit will be determined by the Button P1.1.
   P1OUT |= BIT1;     // This line of code sets the resistance to a pullup resistor
 
   while(1){
