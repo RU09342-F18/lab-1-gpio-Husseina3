@@ -13,8 +13,8 @@ After the Microprocessor was fully programmed and debugged, It was taken off of 
 
 ## Reset Circuit
 
-![Alt text]( lab-1-gpio-Husseina3/Off_Board Blink/Off_Board_Blink.JPG?raw=true "Title")
+![Alt text]( lab-1-gpio-Husseina3/Off_Board Blink/Off_Board_Blink.JPG)
      
     
-
+![Optional Text](../master/Off_Board Blink/Off_Board_Blink.JPG)
 
