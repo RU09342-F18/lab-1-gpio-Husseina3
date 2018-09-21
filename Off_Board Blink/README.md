@@ -13,7 +13,8 @@ After the Microprocessor was fully programmed and debugged, It was taken off of 
 
 ## Reset Circuit
 
-  
-    
- ![Alt Text](Reset Circuitry.png)
+ ![Alt Text](Reset.png)
 
+#LED Blink OfF Board
+
+ ![Alt Text](OFF.png)
